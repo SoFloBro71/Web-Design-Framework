@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Week_2 BS Layout Exercise</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+
+<!-- START OF HEADER / NAV -->
+
+</head>
+    <body>
+        <nav class="p-3 mb-3 border-bottom primary-font root-gradient text-light">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        
+            <h1 class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <a href="main.html" class="nav-link px-2 link-light ">Crescent Moon Events</a>
+            </h1>
+        
+        <!-- PROFILE PIC -->
+            <div class="dropdown text-end">
+                <a href="#" class="d-block link-light text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="images/doge.jpeg" alt="mdo" width="32" height="32" class="rounded-circle">
+                </a>
+                <ul class="dropdown-menu text-small">
+                    <li><a class="dropdown-item" href="#">New project...</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                </ul>
+            </div>
+
+        <!-- BURGER MENU -->
+            <nav class="navbar navbar-dark">
+                <div class="container">
+                    <button class="navbar-toggler " type="button " data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                    <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <!-- HOME LINK -->
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+                            </li>
+
+                            <!-- TYPE OF EVENT DROPDOWN -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Explore</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Nightlife & Clubs</a></li>
+                                    <li><a class="dropdown-item" href="#">Geek Culture</a></li>
+                                    <li><a class="dropdown-item" href="#">Food Experiences</a></li>
+                                    <li><a class="dropdown-item" href="#">Culture,Arts & Fashion</a></li>
+                                    <li><a class="dropdown-item" href="#">Activities & Games</a></li>
+                                    <li><a class="dropdown-item" href="#">Theater,Comedy & Shows</a></li>
+                                    <li><a class="dropdown-item" href="#">Plans For Two</a></li>
+                                    <li><a class="dropdown-item" href="#">Concerts & Music Festivals</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- LOCATION DROPDOWN -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" data-bs-toggle="dropdown" aria-expanded="false">Location</a>
+
+                                <ul class="dropdown-menu scroll-menu scroll-menu-2x">
+                                    <li><a class="dropdown-item" href="#"> Madrid</a><li>
+                                        <li><a class="dropdown-item" href="#"> New York </a></li>
+                                        <li><a class="dropdown-item" href="#"> London </a></li>
+                                        <li><a class="dropdown-item" href="#"> Paris </a></li>
+                                        <li><a class="dropdown-item" href="#"> Dublin</a></li>
+                                        <li><a class="dropdown-item" href="#">Los Angeles </a></li><!----></ul>
+                                    </li>
+                                </ul>
+
+                            <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn bg-primary btn-lg text-light btn-outline-white third-font" type="submit">Search</button>
+                            </form>
+                        </div>
+                        </div>
+                    </div>
+                    </nav>
+            </div>
+        </nav>
+
+<!-- END OF HEADER / NAV -->
+
+<!-- EVENT INFO -->
+
+<div class="carousel-item active ">
+    <img src="images/dfconcert2.png" class="d-block w-100" alt="...">
+    <div class="card-body ">
+        <h5 class="card-title d-flex justify-content-center">Card title</h5>
+        <p class="card-text d-flex justify-content-center">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text d-flex justify-content-center"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
