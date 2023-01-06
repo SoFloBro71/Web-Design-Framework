@@ -74,6 +74,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.third-italic{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     margin-top: 0;
     margin-bottom: 0.5rem;
@@ -190,6 +195,14 @@ p {
 .root-gradient{
     background: #3c305f;
 background: radial-gradient(circle, rgba(60,48,95,1) 0%, rgba(88,74,138,1) 58%, rgba(125,109,196,1) 100%);
+}
+
+.padding-left{
+    padding-left: 50rem;
+}
+
+.padding-bottom{
+    padding-bottom: 50rem;
 }
 
 .css-1qcfeeh {
