@@ -198,18 +198,17 @@ background: radial-gradient(circle, rgba(60,48,95,1) 0%, rgba(88,74,138,1) 58%, 
 }
 
 .padding-left{
-<<<<<<< HEAD
     padding-left: 90rem;
-=======
     padding-left: 50rem;
->>>>>>> f8256055049f220cb19d6717ec447ce17ccc7819
 }
 
 .padding-bottom{
     padding-bottom: 50rem;
 }
 
-.css-1qcfeeh {
+/* HEADSPACE SCROLLING BALL ATTEMPT */
+
+/* .css-1qcfeeh {
     -webkit-box-align: center;
     align-items: center;
     display: flex;
@@ -311,7 +310,7 @@ html {
     content: "";
     display: table;
     clear: both;
-}
+} */
 
 /* SCROLL DROPDOWN ATTEMPT */
 
